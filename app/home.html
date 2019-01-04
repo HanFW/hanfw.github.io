@@ -1,0 +1,102 @@
+<nav class="navbar navbar-default navbar-fixed-top navbar-customized">
+    <div class="container">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+        </div>
+
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+            <ul class="nav navbar-nav navbar-right">
+                <li><a href="#!home#portfolio">Portfolio</a></li>
+                <li><a href="#!about">About Me</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Home Page--> 
+<header id="home" class="home sections">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="introHeader">
+                    <h1>Hi, I'm Fengwei :)</h1>
+                    <p>A "realistic idealist", who always strive for better solutions. </p> 
+                    <p>I am graduating soon with a bachelor's degree in Information Systems from National University of Singapore. Look forward to the exciting HCI & UX journey ahead!</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</header>
+
+<!--Portfolio Section-->
+<section id="portfolio" class="portfolio sections text-center" ng-controller="homeCtrl">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4 portfolio-box">
+                <div class='portfolio-img-box' ng-click="goToProject('safetrip')">
+                    <img src="img/safetrip.jpg" alt="">
+                    <div class="portfolio-img-caption">
+                        <h5 class="portfolio-img-caption-content">SafeTrip - Mobile App</h5>
+                        <p class="portfolio-img-caption-remark">Go anywhere. Stay safe.</p>
+                    </div>
+                </div>
+                <h5>Interaction Design & Design Thinking</h5>
+                <!-- <p>Team Project | National University of Singapore</p> -->
+            </div>
+            <div class="col-md-4 portfolio-box">
+                <div class='portfolio-img-box' ng-click="goToProject('ibeehub')">
+                    <img src="img/ibeehub.png" alt="">
+                    <div class="portfolio-img-caption">
+                        <h5 class="portfolio-img-caption-content">Portfolio Management Platform</h5>
+                        <p class="portfolio-img-caption-remark">Assignment was chosen to be the sample for the latter batches!</p>
+                    </div>
+                </div>
+                <h5>UX Research & Prototyping</h5>
+                <!-- <p>Industry Experience | Peking University</p> -->
+            </div>
+            <div class="col-md-4 portfolio-box">
+                <div class='portfolio-img-box' ng-click="goToProject('meowdiary')">
+                    <img src="img/miao.jpg" alt="">
+                    <div class="portfolio-img-caption">
+                        <h5 class="portfolio-img-caption-content">Meow Diary - Mobile APP</h5>
+                        <p class="portfolio-img-caption-remark">Meow? Meow! Meow~</p>
+                    </div>
+                </div>
+                <h5>UX Research & Prototyping</h5>
+                <!-- <p>Team Project | Peking University</p> -->
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4 portfolio-box">
+                <div class='portfolio-img-box' ng-click="goToProject('merlionbank')">
+                    <img src="img/3102.png" alt="">
+                    <div class="portfolio-img-caption">
+                        <h5 class="portfolio-img-caption-content">Online Banking System</h5>
+                        <p class="portfolio-img-caption-remark">Proud of it and my team!</p>
+                    </div>
+                </div>
+                <h5>System analysis, design & development</h5>
+                <!-- <p>Capstone Project | National University of Singapore</p> -->
+            </div>
+            <div class="col-md-4 portfolio-box">
+                <div class='portfolio-img-box' ng-click="goToProject('ideavalidation')">
+                    <img src="img/ilead.png" alt="">
+                    <div class="portfolio-img-caption">
+                        <h5 class="portfolio-img-caption-content">AI-driven E-commerce Platform</h5>
+                        <p class="portfolio-img-caption-remark">We validate, validate, and pivot...</p>
+                    </div>
+                </div>
+                <h5>Idea Validation & Lean Methodology</h5>
+                <!-- <p>Team Project | NUS iLEAD Program</p> -->
+            </div>
+        </div>
+    </div>
+</section>
+ 

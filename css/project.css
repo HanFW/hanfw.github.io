@@ -1,0 +1,234 @@
+.project .header-container{
+	padding-top: 20px;
+}
+
+.project .intro-container{
+	background-color: #F2F2F2;
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.flex-center{
+	display: flex;
+	justify-content: center;
+}
+
+.button{
+	width: 200px;
+	height: 60px;
+	border: 1px solid black;
+	color: black;
+	padding: 15px 20px;
+	background-color: transparent;
+	font-size: 16px;
+	margin-right: 10px;
+}
+
+/*------project section------*/
+.project-section{
+	width: 64%;
+	margin: auto;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+/*introduction list*/
+.introduction-list{
+	font-family: Roboto;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0em;
+    line-height: 2;
+    margin-bottom: 0px;
+}
+
+/*section title*/
+.section-title-container{
+	display: flex;
+	justify-content: left;
+	padding-bottom: 20px;
+}
+
+.title-number{
+	height: 64px;
+	width: 64px;
+	margin: 0px 5px 0px 0px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	border-radius: 5px;
+	font-size: 48px;
+}
+
+.title-text h4{
+	font-weight: bold;
+	margin: 0px 0px 0px 5px;
+}
+
+.title-text div{
+	font-size: 24px;
+	font-weight: 300;
+	margin: 0px 0px 0px 5px;
+}
+
+/*feature box*/
+.feature-box{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 5px;
+	border-color: #FDD24A;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding: 10px;
+}
+
+.feature-box .feature-title{
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 3rem;
+    margin-bottom: 0px;
+}
+
+@media screen and (max-width : 510px) {
+	.project .header-container{
+		padding-top: 10px;
+	}
+
+	.project .intro-container{
+		background-color: #F2F2F2;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	.button{
+		width: 150px;
+		height: 40px;
+		border: 1px solid black;
+		color: black;
+		padding: 10px 15px;
+		background-color: transparent;
+		font-size: 14px;
+		margin-right: 5px;
+	}
+
+	/*------project section------*/
+	.project-section{
+		width: 90%;
+		margin: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+}
+
+/*===============safetrip================*/
+.designthinking-icon-bg{
+	text-align: center;
+	width: 100px;
+	height: 100px;
+	margin: 0px 20px;
+}
+
+#empathize .title-number{
+	background-color: #396C9B;
+}
+
+#define .title-number{
+	background-color: #F17053;
+}
+
+#ideate .title-number{
+	background-color: #FDD24A;
+}
+
+#prototype .title-number, #prototype2 .title-number{
+	background-color: #C09E3A;
+}
+
+#test .title-number, #test2 .title-number{
+	background-color: #9D2363;
+}
+
+#safetrip .feature-box{
+	min-height: 250px;
+}
+
+#conclusion .title-number{
+	background-color: #4F90CA;
+}
+
+
+.feedback-improvement p{
+	font-size: 13px;
+}
+
+.feedback-improvement img{
+	width: 46%;
+	display: inline-block;
+	float: left;
+	margin-left: 2px;
+	margin-right: 2px;
+}
+
+
+/*===============ibeehub================*/
+.ibeehub-title-design .title-number{
+	background-color: #33363A;
+	color: #EECF5C;
+}
+
+.ibeehub-title-design h4{
+	color: #33363A;
+}
+
+.ibeehub-title-research .title-number{
+	background-color: #EECF5C;
+	color: #33363A;
+}
+
+.ibeehub-title-research h4{
+	color: #EECF5C;
+}
+
+#ibeehub .feature-box{
+	min-height: 230px;
+}
+
+/*===============meowdiary================*/
+.meowdiary-title .title-number{
+	/*background-color: RGBA(36, 109, 130, 0.7);*/
+	background-color: #8696A7;
+	color: #FFFFFF;
+}
+
+.meowdiary-title .subtitle{
+	color: #D7AAA9;
+}
+
+.meowdiary-title h4{
+	color: #D7AAA9;
+}
+
+#meowdiary .feedback-box{
+	border: 1px solid #D7AAA9;
+	padding: 5px;
+}
+
+#meowdiary .feedback-box h6{
+	font-size: 17px;
+	font-weight: 300;
+}
+
+/*===============airshop================*/
+.airshop-title .title-number{
+	background-color: #F0A171;
+}
+
+.airshop-title h4{
+	color: #F0A171;
+}
