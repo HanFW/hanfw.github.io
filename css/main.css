@@ -1,0 +1,208 @@
+html,
+body{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+    color: #001B26;
+    font-family: Muli, sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.7;
+}
+
+h1 {
+    font-family: Oswald;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0em;
+    line-height: 6rem;
+}
+
+h2 {
+    font-family: Oswald;
+    font-size: 60px;
+    font-weight: 600;
+    font-style: normal;
+    letter-spacing: 1px;
+}
+
+h3 {
+    font-family: Oswald;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: Oswald;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 12px;
+}
+
+h5 {
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+h6 {
+    font-family: Muli;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+p {
+    font-family: Muli;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 300;
+    letter-spacing: 0em;
+    line-height: 1.7;
+    margin-bottom: 0px;
+}
+
+.sections {
+    padding-top: 40px;
+    padding-bottom: 50px;
+    position: relative;
+    overflow: hidden;
+}
+
+.section-header{
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+/*Navigation Bar*/
+/*.navbar-customized{
+    background-color: rgba(36, 37, 41, 0.5);
+    border: none;
+}
+*/
+.navbar-customized .navbar-nav>li>a{
+    font-size: 16px;
+    font-family: Oswald;
+    text-transform: uppercase;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    margin-left: 18px;
+    letter-spacing: 4px;
+}
+
+
+/*Home CSS*/
+#home{
+    /*background-color: #001B26;*/
+    background-image: url("../img/home-background.jpg");
+    background-size: 100%;
+    height: 290px;
+    color: #F2F2F2;
+}
+
+.introHeader{
+    padding-left: 10%;
+}
+
+.header2{
+    padding-top: 1%;
+    font-family: Open Sans;
+    color: #8EA1A5;
+}
+
+
+/*Portfolio CSS*/
+#portfolio{
+/*    background-color: #F2F2F2;*/
+    padding-top: 65px;
+}
+
+.portfolio-box{
+    position: relative;
+    padding-bottom: 20px;
+}
+
+.portfolio-img-box{
+    position: relative;
+    height: 230px;
+    cursor: pointer;
+}
+
+.portfolio-box .portfolio-img-caption{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 1;
+    color: transparent;
+    background: rgba(37,38,41,0.2);
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    transition: all 0.2s;
+}
+
+.portfolio-box .portfolio-img-caption .portfolio-img-caption-content{
+    position: absolute;
+    top: 40%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 5% 10%;
+    font-size: 25px;
+}
+
+.portfolio-box .portfolio-img-caption .portfolio-img-caption-remark{
+    position: absolute;
+    top: 80%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 5px 5px;
+}
+
+.portfolio-box .portfolio-img-caption:hover {
+    background: rgba(26, 38, 20, 0.9);
+    color: #FFFFFF;
+}
+
+.portfolio-box .coming-soon-caption{
+    position: absolute;
+    bottom: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    opacity: 1;
+    color: white;
+    background: rgba(0, 27, 38, 0.3);
+}
+
+.portfolio-box .coming-soon-caption .coming-soon-caption-content{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    transform: translateY(-50%);
+    text-align: center;
+    padding: 5% 10%;
+    font-size: 25px;
+}
+
+.portfolio-box .coming-soon-caption:hover {
+    background: rgba(0, 27, 38, 0.6); 
+}
+
+.portfolio img{
+    width: 100%;
+    max-height: 100%;
+    min-height: 230px;
+}

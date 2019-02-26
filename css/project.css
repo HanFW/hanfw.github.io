@@ -1,0 +1,170 @@
+.project .header-container{
+	padding-top: 80px;
+	padding-bottom: 30px;
+}
+
+.project .intro-container{
+	padding-top: 30px;
+	padding-bottom: 80px;
+}
+
+.bg-grey{
+	background-color: #F2F2F2;
+}
+
+.button{
+	border: 1px solid black;
+	color: black;
+	padding: 10px 20px;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+.button-light{
+	border: 1px solid #f8f9fa;
+	color: #f8f9fa;
+	padding: 10px 20px;
+	background-color: transparent;
+	font-size: 16px;
+}
+
+/*------project section------*/
+.project-section{
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.section-container-sm{
+	width: 50%;
+	margin: auto;
+}
+
+.section-container-md{
+	width: 75%;
+	margin: auto;
+}
+
+.section-container-lg{
+	width: 90%;
+	margin: auto;
+}
+
+/*section title*/
+.section-title-container{
+	padding-bottom: 40px;
+}
+
+/*feature box*/
+.feature-box{
+	border-style: solid;
+	border-width: 2px;
+	border-radius: 5px;
+}
+
+.feature-box .feature-title{
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width : 510px) {
+	.project .header-container{
+		padding-top: 10px;
+	}
+
+	.project .intro-container{
+		background-color: #F2F2F2;
+		padding-top: 10px;
+		padding-bottom: 30px;
+	}
+
+	.button{
+		width: 150px;
+		height: 40px;
+		border: 1px solid black;
+		color: black;
+		padding: 10px 15px;
+		background-color: transparent;
+		font-size: 14px;
+		margin-right: 5px;
+	}
+
+	/*------project section------*/
+	.section-container-md{
+		width: 90%;
+		margin: auto;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+}
+
+/*===============safetrip================*/
+
+#safetrip .header-container, #safetrip .intro-container{
+	background-color: #84C687;
+}
+
+.img-poster{
+	position: relative;
+	left: 20px;
+	height: 120px;
+	transform: rotate(10deg);
+}
+
+#safetrip .feature-box{
+	border-color: #84C687;
+}
+
+#safetrip .feature-box .feature-title{
+    color: #60AA64;
+}
+
+.feedback-container{
+	background-color: #F2F2F2;
+	padding: 30px;
+}
+
+#safetrip .feature-box{
+	margin-bottom: 50px;
+	padding: 30px;
+}
+
+
+/*===============ibeehub================*/
+
+#ibeehub .header-container, #ibeehub .intro-container{
+	background-color: #EECF5C;
+}
+
+#ibeehub .feature-box{
+	height: 100%;
+	padding: 15px;
+}
+
+#ibeehub .feature-content{
+	font-size: 15px;
+}
+
+/*===============meowdiary================*/
+
+#meowdiary .header-container, #meowdiary .intro-container{
+	background-color: #F3E8E8;
+}
+
+#meowdiary .feedback-box{
+	border: 1px solid #D7AAA9;
+	padding: 10px;
+}
+
+/*===============airshop================*/
+
+#airshop .header-container, #airshop .intro-container{
+	background-color: #F0A171;
+}
+
+/*===============merlion bank================*/
+
+#merlionbank .header-container, #merlionbank .intro-container{
+	/*background-color: #677DA0;*/
+	/*background-color: #273746;*/
+	background-color: #263750;
+}

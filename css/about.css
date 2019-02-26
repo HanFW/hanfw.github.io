@@ -1,0 +1,35 @@
+/*About Me CSS*/
+.about-container {
+    padding-top: 80px;
+}
+
+.img-me {
+	max-width: 210px;
+}
+
+.about-header-container {
+	position: absolute;
+}
+
+.selfintro-background {
+	width: 100%;
+}
+
+.selfintro-text {
+	padding-top: 15px;
+	color: #FFF;
+}
+
+.images-container {
+	padding-top: 120px;
+}
+
+.images-carousel {
+	width: 100%;
+	overflow-x:scroll;
+}
+
+.img-carousel {
+	height: 120px;
+	float: left;
+}
